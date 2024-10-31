@@ -1,0 +1,14 @@
+.card {
+    flex-basis: 250px; /* Set the base size for each card */
+    flex-grow: 1;      /* Allow cards to grow to fill available space */
+    margin: 10px;     /* Space between cards */
+    border: 1px solid #ccc; /* Optional: add a border for visual clarity */
+    border-radius: 8px; /* Optional: rounded corners */
+    overflow: hidden;  /* Ensure overflow is hidden for images */
+}
+
+.card img {
+    width: 100%;        /* Make the image take the full width of the card */
+    height: 150px;     /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}

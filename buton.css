@@ -1,0 +1,12 @@
+.btn-blue {
+    background-color: #005f73; /* Darker blue background */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: #007B9A; /* Slightly lighter blue for hover effect */
+}

@@ -1,0 +1,30 @@
+.banner {
+    background-image: 
+        linear-gradient(-225deg, rgba(192, 57, 43, 0.8) 0%, rgba(192, 57, 43, 0.1) 50%),
+        url('../images/charles.png'); /* Ensure this path is correct */
+    background-size: cover; /* Keep cover for full area coverage */
+    background-position: center 30%; /* Center and adjust the image */
+    padding: 100px 0; /* Maintain padding for spacing */
+    text-align: left; /* Align text to the left */
+}
+
+.container {
+    max-width: 800px; /* Optional: limit container width */
+    margin-left: auto; /* Center align the container horizontally */
+    margin-right: auto; /* Center align the container horizontally */
+    padding-left: 10px; /* Decrease padding to move text further left */
+}
+
+.banner h1, .banner h2 {
+    color: black; /* Change text color to black */
+}
+
+.banner h1 {
+    font-size: 50px; /* Keep existing font size */
+}
+
+.banner h2 {
+    font-size: 30px; /* Keep existing font size */
+    font-weight: lighter; /* Keep existing font weight */
+    opacity: 0.8; /* Keep existing opacity */
+}

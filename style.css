@@ -1,0 +1,59 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* General style rules for fonts and colors */
+body {
+    font-family: 'Poppins', sans-serif; /* Modern body font */
+    font-size: 18px;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif; /* Stylish heading font */
+    font-weight: bold;
+}
+
+a {
+    color: #c0392b; /* Soft red color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e74c3c; /* Slightly brighter red on hover */
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px; /* Add padding around the card grid */
+}
+
+.card {
+    width: 300px;   /* Increased width for larger card */
+    height: 300px;  /* Increased height for larger card to keep it square */
+    margin: 10px;   /* Space between cards */
+    border: 1px solid #ccc; /* Optional: add a border for visual clarity */
+    border-radius: 8px; /* Optional: rounded corners */
+    overflow: hidden;  /* Ensure overflow is hidden for images */
+    display: flex;    /* Center the content */
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;        /* Make the image take the full width of the card */
+    height: 100%;       /* Make the image take the full height of the card */
+    object-fit: cover;  /* Ensure the image covers the area without distortion */
+}
+
+.card h3 {
+    padding: 5px; /* Reduced padding for heading */
+    text-align: center; /* Center the text */
+    font-size: 16px; /* Adjusted font size for larger cards */
+}
+
